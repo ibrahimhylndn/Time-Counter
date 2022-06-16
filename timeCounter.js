@@ -10,7 +10,6 @@ function timerStarter(){
     if(b===1){
    }else{
         cc =setInterval(bar,1000)
-        console.log(cc)
         b=1
     }
 }
