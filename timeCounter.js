@@ -4,7 +4,6 @@ var cc;
 
 function bar(){
     document.getElementById("p").innerHTML=as++ 
-    console.log("hello"+cc)
 }
 
 function timerStarter(){
@@ -15,13 +14,11 @@ function timerStarter(){
         b=1
     }
 }
+
 function timerStopper(){
 
     clearInterval(cc)
-    console.log(clearInterval(cc))
-      console.log(cc)
-      b=0
-    
+      b=0    
 }
 
 function timerReset(){
